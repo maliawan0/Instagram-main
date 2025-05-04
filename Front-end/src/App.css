@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+
+.brand-logo
+{
+  font-family: 'Grand Hotel',cursive;
+  margin-left: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.947);
+  margin: 20px auto 20px; 
+  padding: 1rem;
+  box-shadow: 0 0 10px rgb(252, 251, 251);
+  border-radius: .25em;
+  max-width: 550px; 
+  height: max-content;
+}
+
+
+
+
+.signup-card{
+  padding: 10px;
+  overflow:hidden;
+  height: 88vh;
+  width: 100%;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+  margin: 10px auto;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(40,48,72,1) 65%, rgba(133,147,152,1) 100%);
+}
+
+.card2
+{
+background-color: whitesmoke;
+margin: 3vh auto;
+padding: 2rem;
+box-shadow: 0 0 10px rgba(0,0,0,.1);
+border-radius: .25em;
+width: 450px;
+height: max-content;
+}
+
+
+.authcard{
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 350px;
+  height: 60vh;
+  margin: 10px auto;
+}
+
+.home {
+  background: rgb(189, 195, 199);
+  background: radial-gradient(circle, rgba(189, 195, 199, 1) 0%, rgba(44, 62, 80, 1) 100%);
+  padding: 20px; /* Add padding to create space between the cards */
+}
+
+.chat{
+  background: rgb(189, 195, 199);
+  background: radial-gradient(circle, rgb(137, 160, 175) 0%, rgba(44, 62, 80, 1) 100%);
+  height: 88vh;
+  width: 100%;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(255, 37, 146) !important;
+  box-shadow: 0 1px 0 0 rgb(255, 37, 146)  !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(255, 37, 146) !important;
+  box-shadow: 0 1px 0 0 rgb(255, 37, 146)  !important;
+}
+
+
+.gallery
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.profile-img
+{
+ margin-top: 4px;
+}
+
+
+.home-card{
+  margin:26px auto;
+  max-width: 800px;
+  text-align: start;
+}

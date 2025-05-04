@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "mongoose": "^8.3.3",
+    "react-icons": "^5.2.0",
+    "react-router-dom": "^6.23.0"
+  }
+}
